@@ -1,6 +1,8 @@
 body{
-	
+	background-color:pink;
 }
 
-#about-me{
+/*When we hover over images, what would happen.*/
+img:hover{
+  opacity: .2;
 }
