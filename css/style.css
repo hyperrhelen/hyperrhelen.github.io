@@ -1,8 +1,32 @@
 body{
 	background-color:pink;
+
+}
+
+h1, p, li{
+  color: #ffffff;
+}
+
+a{
+  text-decoration: none;
 }
 
 /*When we hover over images, what would happen.*/
 img:hover{
-  opacity: .2;
+  opacity:.2;
 }
+
+#projects img{
+
+}
+
+/*
+
+#Blogger:img{
+  opacity:.7;
+}
+
+#about-me{
+  background-color:purple;
+}
+*/
