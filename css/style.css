@@ -66,7 +66,7 @@ section {
     border-radius: 300px;
     width: auto;
     height: auto;
-    max-width: 59%;
+    max-width: 50%;
     max-height: 50%;
     float: right;
   }
@@ -127,7 +127,19 @@ section {
 
 }
 
+.row, .col-sm-8, i {
+ 
+  /*padding-right: 20px;*/
+}
 
+.skills {
+  background-color: #fdbec8;
+}
+
+.experience {
+  background-color: #BEC8FD;
+  /*color: #fad832;*/
+}
 
 /*#welcome {
   text-align: center;
