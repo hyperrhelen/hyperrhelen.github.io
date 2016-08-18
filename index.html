@@ -1,47 +1,164 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Helen Chac</title>
 
-  </head>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" tyep="text/css" href="css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
 
-  <body>
-    <div class = "header-title">
-      <h1>Helen Chac</h1>
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Oxygen" rel="stylesheet">
+
+  <!--Code to make the navigation bar collapse when it
+  is in mobile format.-->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <title>Helen Chac</title>
+  <link rel="shortcut icon" href="imgs/HC_LOGO.png"/>
+</head>
+
+<body>
+  <nav class="navbar navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><strong>Helen Chac</strong></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#about"><strong>About</strong></a></li>
+              <li><a href="#skill"><strong>Skills</strong></a></li>
+              <li><a href="#experience"><strong>Experience</strong></a></li>
+              <li><a href="#project"><strong>Projects</strong></a></li>
+              <!-- <li><a href="#photograph"><strong>Photography</strong></a></li> -->
+              <li><a href="#contact"><strong>Contact</strong></a></li>
+        </ul>
+      </div>
     </div>
-  	<div class="about-me">
-  		<p>Hi everyone! My name is Helen and I am  a fourth year computer science major at University of California, Davis.</p>
-  	</div>
-  	<div class="interests">
-      <h1>Interests</h1>
-      <ul>
-        <li>Coding</li>
-        <li>Hiking</li>
-        <li>Eating</li>
-        <li>Photography</li>
-        <li>Running</li>
-      </ul>
-  	</div>
-    <div class="classes-taken">
-      Some classes that I've previously taken before is:
-      <ul>
-        <li>Software Engineering</li>
-        <li>Operating Systems</li>
-        <li>Algorithms A and B</li>
-        <li>Computer Architecture A and B</li>
-        <li>Programming Languages</li>
-        <li>Theory of Computer Science</li>
-        <li>Data Structures</li>
-      </ul>
-    </div>
-    <div class="projects">
-  	</div>
-    <div class = "">
-    </div>
-    <div class = "Contact Information">
-      <a href = "http://www.github.com/hyperrhelen">Github</a>
-      <a href = "http://www.linkedin.com/">LinkedIn</a>
+  </nav>
+
+  <header>
+    <div class="intro-header" style="background: url(imgs/header-img.jpg); background-repeat:no-repeat; background-size:100%; background-position: top">
+      <div class="container" id="welcome">
+        <h1>Welcome!</h1>
+        </div>
+      </div>
     </div>
 
-  </body>
-</html>
+  </header>
+
+  <section>
+    <div class="intro">
+      <div class="container">
+        <h2>About me</h2>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="imgs/profile_avatar.jpg">
+          </div>
+          <div class="col-sm-6 about-me">
+            <p>Hello! Thanks for stumbling across my page!</p>
+            <p>My name is Helen Chac and I recently graduated from UC Davis with a B.S. in Computer Science! I'm currently located in the Bay Area and am looking for opportunities to learn more about Software Development.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- 
+  <section>
+    <div class="container">
+      <div class="skills">
+        <h3>Skills</h3>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- 
+
+  <div class="about jumbotron"> 
+    <div class="container">
+      <p>Hello! My name is Helen!</p>
+    </div>
+  </div>
+
+
+  <div class="experiences jumbotron">
+      <div class="container">
+          <h3>Experience</h3>
+      </div>
+  </div>
+
+  <div class="projects jumbotron">
+    <div class="container">
+      <h3>Past Projects</h3>
+      <br/>
+      <div class="row">
+        <div class="col-sm-4">
+          <p>Face Detection</p>
+        </div>
+        <div class="col-sm-8">
+          <p>Description on Face Detection</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8">
+        <p>Description of Virtual Machine</p>
+        </div>
+        <div class="col-sm-4">
+          <p>Virtual Machine</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-4">
+          <p>Virtual Machine</p>
+        </div>
+        <div class="col-sm-8">
+          <p>Description of Virtual Machine</p>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-8">
+        <p>Description of Virtual Machine</p>
+        </div>
+        <div class="col-sm-4">
+          <p>Virtual Machine</p>
+        </div>
+      </div>
+
+
+
+      <p></p>
+    </div>
+  </div> -->
+
+  <!-- TODO(Helen): Fix the footer for web pages, it's fixed to the bottom for mobile devices -->
+  <footer>
+    <section id="footer">
+      <div class="container">
+        <p>Copyright &copy; Helen Chac 2016</p>
+      </div>
+      <p>Connect with me</p>
+      <p>I'd love to sepak with you about my past experiences and get to know you!</p>
+
+      <div class="icons">
+        <a href="https://angel.co/helen-chac/"><i class="fa fa-angellist fa-2x"></i></a>
+        <a href="https://www.flickr.com/photos/hchac/"><i class="fa fa-flickr fa-2x"></i></a>
+        <a href="https://www.github.com/hyperrhelen/"><i class="fa fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/helenchac/"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a href="#"><i class="fa fa-envelope-o fa-2x"></i></a>
+      </div>
+      </div>
+    </section>
+  </footer>
+ </body>

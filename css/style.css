@@ -1,6 +1,140 @@
-body{
-	
+
+html {
+  position: relative;
+  min-height: 100%;
+
+  /*font-family: 'Oxygen', sans-serif;*/
+}
+body {
+  margin: 0 0 100px;
+  /*font-family: 'Crete Round', serif;*/
+  /*font-family: 'Chewy', cursive;*/
 }
 
-#about-me{
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  font-family: 'Oxygen', sans-serif; 
+  /*font-family: ;*/
 }
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.navbar {
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+#footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 4rem;
+  background-color: #efefef;
+  text-align: center;
+  font: inherit;
+}
+
+
+.icon-bar {
+  background-color: #888;
+}
+
+.navbar-toggle {
+  background-color: #eee;
+
+}
+
+/*Mobile*/
+@media all and (max-width: 767px) {
+  .intro-header {
+    margin-top: 0;
+  }
+  #welcome {
+    text-align: center;
+    vertical-align: center;
+    padding: 40px;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  .intro .container .row img {
+    border-radius: 300px;
+    width: auto;
+    height: auto;
+    max-width: 59%;
+    max-height: 50%;
+    float: right;
+  }
+
+}
+
+/*Desktop Version*/
+@media all and (min-width: 768px){
+
+  .intro-header {
+    margin-top: 0;
+    /*padding-bottom: 260px;*/
+  }
+
+  #welcome {
+    text-align: center;
+    vertical-align: center;
+    padding: 150px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  .intro .container .row img {
+    border-radius: 300px;
+    width: auto;
+    height: auto;
+    max-width: 75%;
+    max-height: 75%;
+    float: right;
+  }
+
+}
+
+
+/*
+.footer {
+  background-color: #eee;
+  bottom: 0;
+  width:100%;
+  padding: 50px 0 65px;
+  text-align: center;
+  font: inherit;
+}*/
+
+/*.nav-up {
+  top: -40px;
+}*/
+
+.row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*background-color: #eff;*/
+}
+
+.intro {
+  background-color: #fff;
+}
+
+.about-me {
+
+}
+
+
+
+/*#welcome {
+  text-align: center;
+  vertical-align: center;
+  padding: 150px;
+  margin: 0 auto;
+  color: #fff;
+}*/
